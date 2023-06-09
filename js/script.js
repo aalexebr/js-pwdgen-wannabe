@@ -28,6 +28,6 @@ function add()
            var number1, number2, sum;
            number1 = parseInt(document.getElementById("firstnumber").value);
            number2 = parseInt(document.getElementById("secondnumber").value);
-           sum = number1 + num2;
+           sum = number1 + number2;
            document.getElementById('answer').innerHTML = sum
          }
