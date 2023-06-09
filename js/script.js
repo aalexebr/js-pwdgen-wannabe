@@ -14,9 +14,20 @@ let num2 = parseInt(y);
 
 const result2 = document.getElementById('ResultPrompt2');
 result2.innerHTML = num1 + num2;
-if (result2 != NaN) {
-    document.getElementById("ResultPrompt2").innerHTML =
-    "please enter numbers";
-  }
+// if (result2 != NaN) {
+//     document.getElementById("ResultPrompt2").innerHTML =
+//     "please enter numbers";
+//   }
 
 console.log(result2.innerHTML)
+
+
+
+function add()
+         {
+           var number1, number2, sum;
+           number1 = parseInt(document.getElementById("firstnumber").value);
+           number2 = parseInt(document.getElementById("secondnumber").value);
+           sum = number1 + num2;
+           document.getElementById('answer').innerHTML = sum
+         }
