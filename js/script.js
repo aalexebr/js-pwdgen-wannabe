@@ -1,11 +1,11 @@
-let first_name = prompt ("enter name");
-let last_name = prompt ("enter surname");
-let color = prompt ("enter favorite color");
+// let first_name = prompt ("enter name");
+// let last_name = prompt ("enter surname");
+// let color = prompt ("enter favorite color");
 
-const result = document.getElementById('ResultPrompt');
-result.innerHTML = first_name + ' ' + last_name + ' ' + color;
+// const result = document.getElementById('ResultPrompt');
+// result.innerHTML = first_name + ' ' + last_name + ' ' + color;
 
-console.log(result.innerHTML)
+// console.log(result.innerHTML)
 
 let x = prompt ("enter first number")
 let y = prompt ("enter second number")
@@ -14,10 +14,12 @@ let num2 = parseInt(y);
 
 const result2 = document.getElementById('ResultPrompt2');
 result2.innerHTML = num1 + num2;
-// if (result2 != NaN) {
-//     document.getElementById("ResultPrompt2").innerHTML =
-//     "please enter numbers";
-//   }
+
+
+if (Number.isNaN(result2)) {
+    document.getElementById("ResultPrompt2").innerHTML =
+    "please enter numbers";
+  }
 
 console.log(result2.innerHTML)
 
